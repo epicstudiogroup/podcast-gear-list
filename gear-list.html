@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEO-Authors Podcast: Host Gear List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        .navy-bg {
+            background-color: #1B263B;
+        }
+        .navy-text {
+            color: #1B263B;
+        }
+        @media print {
+            .no-print {
+                display: none;
+            }
+            body {
+                background-color: white;
+            }
+            .page-break {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-slate-800">
+
+    <!-- Control Bar (Hidden when printing) -->
+    <div class="no-print fixed top-0 left-0 w-full bg-white border-b shadow-sm z-50 p-4 flex justify-between items-center">
+        <span class="font-bold text-slate-700">Host Gear Guide Preview</span>
+        <button onclick="window.print()" class="bg-[#1B263B] hover:bg-slate-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300 shadow-lg flex items-center gap-2">
+            <i class="fas fa-file-pdf"></i> Print / Save as PDF
+        </button>
+    </div>
+
+    <!-- Main Document Container -->
+    <div class="max-w-4xl mx-auto bg-white shadow-2xl mt-20 mb-20 print:shadow-none print:mt-0 print:mb-0 print:max-w-full">
+        
+        <!-- Header -->
+        <header class="navy-bg text-white p-12 print:p-8">
+            <div class="flex justify-between items-end border-b border-slate-500 pb-6 mb-4">
+                <div>
+                    <h2 class="text-sm uppercase tracking-widest text-slate-300 mb-2">Podcast Preparation</h2>
+                    <h1 class="text-4xl font-bold">Host Gear & Setup Guide</h1>
+                </div>
+                <div class="text-right">
+                    <h3 class="text-xl font-semibold text-slate-200">CEO-Authors Podcast</h3>
+                </div>
+            </div>
+            <p class="text-slate-300 max-w-2xl">
+                To ensure a broadcast-quality production, we have curated a list of essential equipment and environmental requirements. Please review this checklist to prepare for your interview.
+            </p>
+        </header>
+
+        <!-- Content Body -->
+        <div class="p-12 print:p-8 space-y-12">
+
+            <!-- Section 1: Video -->
+            <section class="page-break grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-200 pb-10">
+                <div class="col-span-1">
+                    <h2 class="text-2xl font-bold navy-text mb-4 border-l-4 border-[#1B263B] pl-4">The Camera</h2>
+                    <div class="rounded-xl overflow-hidden shadow-lg h-48 relative">
+                        <img src="https://images.unsplash.com/photo-1616423640778-28d1b53229bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Webcam Setup" class="object-cover w-full h-full">
+                    </div>
+                    <p class="text-sm text-gray-500 mt-2 italic">A dedicated camera ensures you look sharp and professional.</p>
+                </div>
+                <div class="col-span-2 space-y-4">
+                    <h3 class="font-bold text-lg text-slate-700">Recommended Standalone Webcams</h3>
+                    <ul class="space-y-4">
+                        <li class="bg-gray-50 p-4 rounded-lg border border-gray-100 flex gap-4 items-start">
+                            <i class="fas fa-video text-[#1B263B] mt-1"></i>
+                            <div>
+                                <strong class="block text-slate-900">Logitech Brio 500</strong>
+                                <span class="text-sm text-gray-600">Excellent 1080p quality with superior auto-light correction. The standard for modern home offices. (~$130)</span>
+                            </div>
+                        </li>
+                        <li class="bg-gray-50 p-4 rounded-lg border border-gray-100 flex gap-4 items-start">
+                            <i class="fas fa-robot text-[#1B263B] mt-1"></i>
+                            <div>
+                                <strong class="block text-slate-900">OBSBOT Tiny 2 Lite or Meet 2</strong>
+                                <span class="text-sm text-gray-600">4K resolution with AI tracking that keeps you centered in the frame. Very sharp image. (~$150)</span>
+                            </div>
+                        </li>
+                        <li class="bg-gray-50 p-4 rounded-lg border border-gray-100 flex gap-4 items-start">
+                            <i class="fas fa-tag text-[#1B263B] mt-1"></i>
+                            <div>
+                                <strong class="block text-slate-900">Anker PowerConf C200</strong>
+                                <span class="text-sm text-gray-600">The best budget option. 2K resolution and crisp clarity for the price point. (~$60)</span>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg mt-6">
+                        <h4 class="font-bold text-blue-900 text-sm mb-1"><i class="fab fa-apple mr-2"></i>Mac User Pro Tip: Continuity Camera</h4>
+                        <p class="text-sm text-blue-800">
+                            If you have an iPhone (XR or later) and a Mac, you do not need to buy a webcam. Use the <strong>"Continuity Camera"</strong> feature to use your iPhone's rear camera as a webcam. It provides quality superior to almost any webcam on the market. You will simply need a cheap MagSafe mount (e.g., Belkin) to attach it to your monitor.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 2: Audio -->
+            <section class="page-break grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-200 pb-10">
+                <div class="col-span-1">
+                    <h2 class="text-2xl font-bold navy-text mb-4 border-l-4 border-[#1B263B] pl-4">The Audio</h2>
+                    <div class="rounded-xl overflow-hidden shadow-lg h-48 relative">
+                        <img src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Podcast Microphone" class="object-cover w-full h-full">
+                    </div>
+                    <p class="text-sm text-gray-500 mt-2 italic">Good audio is more critical than good video.</p>
+                </div>
+                <div class="col-span-2 space-y-4">
+                    <h3 class="font-bold text-lg text-slate-700">Recommended Microphones</h3>
+                    <p class="text-sm text-gray-500 mb-2">These mics look professional on-camera and capture broadcast-quality voice.</p>
+                    <ul class="space-y-4">
+                        <li class="bg-gray-50 p-4 rounded-lg border border-gray-100 flex gap-4 items-start">
+                            <i class="fas fa-microphone text-[#1B263B] mt-1"></i>
+                            <div>
+                                <strong class="block text-slate-900">Shure MV7+ (USB/XLR)</strong>
+                                <span class="text-sm text-gray-600">The industry standard for high-end podcasting. It rejects background noise and makes any voice sound rich. Connects directly via USB-C. (~$280)</span>
+                            </div>
+                        </li>
+                        <li class="bg-gray-50 p-4 rounded-lg border border-gray-100 flex gap-4 items-start">
+                            <i class="fas fa-microphone-lines text-[#1B263B] mt-1"></i>
+                            <div>
+                                <strong class="block text-slate-900">Rode PodMic USB</strong>
+                                <span class="text-sm text-gray-600">A dynamic broadcast microphone that looks fantastic on video. Extremely durable and offers studio-quality sound via USB. (~$200)</span>
+                            </div>
+                        </li>
+                        <li class="bg-gray-50 p-4 rounded-lg border border-gray-100 flex gap-4 items-start">
+                            <i class="fas fa-podcast text-[#1B263B] mt-1"></i>
+                            <div>
+                                <strong class="block text-slate-900">Blue Yeti X</strong>
+                                <span class="text-sm text-gray-600">The classic choice. Versatile, easy to use, and reliable. Ensure it is set to "Cardioid" mode (heart symbol) to capture only your voice. (~$130)</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 3: Tech Specs -->
+            <section class="page-break border-b border-gray-200 pb-10">
+                <h2 class="text-2xl font-bold navy-text mb-6 border-l-4 border-[#1B263B] pl-4">Technical Requirements</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-slate-100 p-6 rounded-xl">
+                        <h3 class="font-bold text-lg mb-3 flex items-center"><i class="fas fa-laptop-code mr-2"></i> Fast Computer</h3>
+                        <p class="text-sm text-gray-600 mb-4">Video recording is resource-intensive. A slow computer will cause audio drift (lip-sync issues) or freezing.</p>
+                        <ul class="text-sm space-y-2">
+                            <li><span class="font-semibold">Processor:</span> Apple M1/M2/M3 chip OR Intel Core i7 (10th Gen or newer).</li>
+                            <li><span class="font-semibold">RAM:</span> 16GB Minimum (8GB is risky for video recording).</li>
+                            <li><span class="font-semibold">Storage:</span> 512GB SSD (Solid State Drive) minimum.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-slate-100 p-6 rounded-xl">
+                        <h3 class="font-bold text-lg mb-3 flex items-center"><i class="fas fa-wifi mr-2"></i> Stable Internet</h3>
+                        <p class="text-sm text-gray-600 mb-4">Stability is more important than raw download speed. Use a wired Ethernet cable if possible.</p>
+                        <ul class="text-sm space-y-2">
+                            <li><span class="font-semibold">Test Site:</span> Use <a href="https://speedtest.net" class="text-blue-600 underline">speedtest.net</a> before the call.</li>
+                            <li><span class="font-semibold">Upload Speed:</span> Must be <strong>above 10 Mbps</strong> (Critical for sending your video).</li>
+                            <li><span class="font-semibold">Jitter/Ping:</span> Ping should be under 20ms; Jitter under 30ms.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 4: Aesthetics -->
+            <section class="page-break grid grid-cols-1 md:grid-cols-2 gap-10">
+                
+                <!-- Wardrobe -->
+                <div>
+                    <h2 class="text-2xl font-bold navy-text mb-4 border-l-4 border-[#1B263B] pl-4">The Suit</h2>
+                    <div class="rounded-xl overflow-hidden shadow-lg h-56 mb-4 relative group">
+                        <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Professional Suit" class="object-cover w-full h-full">
+                        <div class="absolute inset-0 bg-black bg-opacity-10 group-hover:bg-opacity-0 transition"></div>
+                    </div>
+                    <h3 class="font-bold text-slate-700 mb-2">Specific Suggestions</h3>
+                    <ul class="text-sm space-y-3 text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check text-green-600 mt-1 mr-2"></i> <span><strong>Colors:</strong> Navy blue, charcoal grey, or deep slate. These contrast well with most backgrounds and skin tones.</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-600 mt-1 mr-2"></i> <span><strong>Solids over Patterns:</strong> Wear solid colors. Avoid tight stripes, checks, or herringbone patterns, as they cause a "shimmering" effect (moiré) on video.</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-600 mt-1 mr-2"></i> <span><strong>Contrast:</strong> Ensure your suit jacket contrasts with your background. (e.g., Don't wear a navy suit against a dark blue wall).</span></li>
+                    </ul>
+                </div>
+
+                <!-- Background -->
+                <div>
+                    <h2 class="text-2xl font-bold navy-text mb-4 border-l-4 border-[#1B263B] pl-4">The Background</h2>
+                    <div class="rounded-xl overflow-hidden shadow-lg h-56 mb-4 relative group">
+                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Office Background" class="object-cover w-full h-full">
+                        <div class="absolute inset-0 bg-black bg-opacity-10 group-hover:bg-opacity-0 transition"></div>
+                    </div>
+                    <h3 class="font-bold text-slate-700 mb-2">Physical Setup (No Virtual Backgrounds)</h3>
+                    <ul class="text-sm space-y-3 text-gray-700">
+                        <li class="flex items-start"><i class="fas fa-check text-green-600 mt-1 mr-2"></i> <span><strong>Depth:</strong> Pull your desk 3-5 feet away from the wall behind you. This creates natural depth and looks high-end.</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-600 mt-1 mr-2"></i> <span><strong>Content:</strong> A bookshelf with books, a small plant, or clean tasteful art works best. Avoid clutter or open doors/hallways.</span></li>
+                        <li class="flex items-start"><i class="fas fa-ban text-red-500 mt-1 mr-2"></i> <span><strong>No Blur/Virtual:</strong> Please disable "Blur Background" or virtual images. They often glitch around hair and hands, lowering the production value.</span></li>
+                    </ul>
+                </div>
+
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer class="navy-bg text-slate-400 p-8 text-center text-sm print:hidden">
+            <p>&copy; 2025 CEO-Authors Podcast. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
